@@ -193,7 +193,7 @@ function (Sitecore, RibbonPageCode, ExperienceEditor) {
     },
 
     generateContextMenuHtmlSource: function (items) {
-      var htmlSource = "<nav data-sc-id=\"RibbonBreadcrumb\" style=\"padding-top:0.3em;padding-bottom:0.3em;padding-left:0.3em;overflow-y:auto;overflow-x:hidden;height: 70%;\" class=\"sc-breadcrumb data-sc-registered sc-breadcrumb-item-rectangle sc\">";
+      var htmlSource = "<nav data-sc-id=\"RibbonBreadcrumb\" style=\"padding-top:0.3em;padding-bottom:0.3em;padding-left:0.3em;overflow-y:auto;overflow-x:hidden;height: 60%;\" class=\"sc-breadcrumb data-sc-registered sc-breadcrumb-item-rectangle sc\">";
       for (var i = 0; i < items.length; i++) {
         var contextMenuFunction = "javascript:document.breadcrumbContext.renderNavigationBar('" + items[i].ItemId + "');";
         htmlSource += "<a style=\"display:block !important; width:100%;height:16px;padding-right:2em;\" class=\"sc-breadcrumb-item-path\" href=\"" + contextMenuFunction + "\">";
