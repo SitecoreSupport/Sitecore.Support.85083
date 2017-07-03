@@ -177,6 +177,7 @@ function (Sitecore, RibbonPageCode, ExperienceEditor) {
             var lang = ExperienceEditor.getContext().instance.currentContext.language;
 
             var treeViewUrl = "/sitecore/client/Applications/ExperienceEditor/Pages/NavigationTreeView.aspx?lang=" + lang;
+
             var dimensions = {
                 width: "300px",
                 height: "320px"
